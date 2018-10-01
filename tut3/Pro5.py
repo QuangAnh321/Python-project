@@ -1,7 +1,7 @@
 phoneNumber = raw_input("Enter phone number in XXX-XXX-XXXX format: ")
 phoneNumber = phoneNumber.split('-')
 
-for var in phoneNumber[1:2]:
+for x in phoneNumber[1:2]:
       for char in phoneNumber:
             if char == 'A' or char == 'B' or char == 'C':
                   char == '2'
